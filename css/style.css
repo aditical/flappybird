@@ -1,0 +1,17 @@
+.container{   
+    position: relative;
+    background-size: cover;
+    margin: 0px;
+}
+.obstacle{
+    background-image: url("../images/hu.png");
+    position: absolute;
+    background-size: cover;
+}
+.background{
+    position: absolute;
+    background-size: cover;
+    margin: 0px;
+    background-image: url("../images/bg.jpg");    
+    
+}
