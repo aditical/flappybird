@@ -141,6 +141,7 @@ restartButton.style.backgroundColor = "#efb300";
 restartButton.innerHTML = "RESTART";
 restartButton.style.fontWeight = "bold";
 restartButton.style.color = "black";
+restartButton.style.zIndex = '1';
 restartButton.style.fontFamily ="monospace"; 
 restartButton.onclick = () => {
 	window.location.reload();       
@@ -157,8 +158,7 @@ startButton.style.backgroundColor = "#efb300";
 startButton.innerHTML = "START GAME";
 startButton.style.fontWeight = "bold";
 startButton.style.color = "black";
-startButton.style.fontFamily ="monospace";
-startButton.style.zIndex = 1 
+startButton.style.fontFamily ="monospace"; 
 startButton.onclick = () => {
 	startButton.style.display ="none";   
 	instructionButton.style.display= "none";  
