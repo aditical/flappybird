@@ -193,7 +193,7 @@ backButton.style.fontFamily ="monospace";
 
 var instruction = document.createElement("div");
 instruction.style.border = "solid";
-instruction.style.height = 150 + 'px';
+instruction.style.height = 160 + 'px';
 instruction.style.width= 150 + 'px';
 instruction.style.left = 320 + 'px'; 
 instruction.style.top = 150 + 'px';   
